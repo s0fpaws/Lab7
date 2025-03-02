@@ -4,21 +4,28 @@ using UnityEngine;
 
 public class EnemyBehavior : MonoBehaviour
 {
-    public Transform player; 
-        public float speed = 3f;
-    public float chaseRange = 5f;
-    public float attackRange = 1.5f;
+    public Transform player;
+    public float speed = 3f;
+    public float chaseRange = 10f;  // Adjusted for testing
+    public float attackRange = 2f;  // Adjusted for testing
 
     private void Start()
     {
-        
+        if (player == null)
+        {
+            Debug.LogError("Player reference not assigned!");
+        }
     }
 
     private void Update()
     {
-        if (player == null) return;
+        if (player == null)
+        {
+            Debug.Log("Player reference is missing!");
+            return;
+        }
 
-        float distance = Vector2.Distance(transform.position, player.position);
+        float distance = Vector3.Distance(transform.position, player.position);
         Debug.Log("Distance to Player: " + distance);
 
         if (distance <= chaseRange && distance > attackRange)
@@ -35,8 +42,8 @@ public class EnemyBehavior : MonoBehaviour
 
     void ChasePlayer()
     {
-        Vector2 direction = (player.position - transform.position).normalized;
-        transform.position += (Vector3)direction * speed * Time.deltaTime;
+        Vector3 direction = (player.position - transform.position).normalized;
+        transform.position += direction * speed * Time.deltaTime;
     }
 
     void Attack()
