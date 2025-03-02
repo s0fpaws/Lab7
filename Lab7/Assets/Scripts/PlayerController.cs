@@ -41,6 +41,7 @@ public class PlayerController : MonoBehaviour
     private float accMouseX = 0;
     private float accMouseY = 0;
     public bool cursorActive = false;
+    private Vector3 startPos = new Vector3(5, 1.3f, 5);
 
     void Start()
     {
@@ -151,7 +152,9 @@ public class PlayerController : MonoBehaviour
     {
         if (playerTx.position.y < -10)
         {
-            playerTx.position = new Vector3(5, 1.3f, 5);
+            controller.enabled = false;
+            playerTx.position = startPos;
+            controller.enabled = true;
         }
     }
 }
