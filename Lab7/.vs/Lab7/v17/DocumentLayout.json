@@ -1,14 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\UnityProject\\Lab7\\",
+  "WorkspaceRootPath": "C:\\Users\\st710147\\Documents\\GitHub\\Lab7\\Lab7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3644624-22BB-95B9-54DC-DAE5DD1BA4D2}|Assembly-CSharp.csproj|c:\\unityproject\\lab7\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3644624-22BB-95B9-54DC-DAE5DD1BA4D2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3644624-22BB-95B9-54DC-DAE5DD1BA4D2}|Assembly-CSharp.csproj|C:\\Users\\st710147\\Documents\\GitHub\\Lab7\\Lab7\\assets\\scripts\\pickupitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3644624-22BB-95B9-54DC-DAE5DD1BA4D2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pickupitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3644624-22BB-95B9-54DC-DAE5DD1BA4D2}|Assembly-CSharp.csproj|c:\\unityproject\\lab7\\assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3644624-22BB-95B9-54DC-DAE5DD1BA4D2}|Assembly-CSharp.csproj|c:\\users\\st710147\\documents\\github\\lab7\\lab7\\assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3644624-22BB-95B9-54DC-DAE5DD1BA4D2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\st710147\\Documents\\GitHub\\Lab7\\Lab7\\Assets\\Scripts\\EnemyBehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EnemyBehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wi652643\\Unity Projects\\Lab7\\Assets\\EnemyBehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3644624-22BB-95B9-54DC-DAE5DD1BA4D2}|Assembly-CSharp.csproj|C:\\Users\\st710147\\Documents\\GitHub\\Lab7\\Lab7\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3644624-22BB-95B9-54DC-DAE5DD1BA4D2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +29,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "EnemyAI.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Lab7\\Assets\\Scripts\\EnemyAI.cs",
+              "DocumentMoniker": "C:\\Users\\st710147\\Documents\\GitHub\\Lab7\\Lab7\\Assets\\Scripts\\EnemyAI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAI.cs",
-              "ToolTip": "C:\\UnityProject\\Lab7\\Assets\\Scripts\\EnemyAI.cs",
+              "ToolTip": "C:\\Users\\st710147\\Documents\\GitHub\\Lab7\\Lab7\\Assets\\Scripts\\EnemyAI.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyAI.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAkwAsAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAmwGgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T19:10:51.743Z",
+              "WhenOpened": "2025-03-02T22:20:43.195Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemyBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\st710147\\Documents\\GitHub\\Lab7\\Lab7\\Assets\\Scripts\\EnemyBehavior.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyBehavior.cs",
+              "ToolTip": "C:\\Users\\st710147\\Documents\\GitHub\\Lab7\\Lab7\\Assets\\Scripts\\EnemyBehavior.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyBehavior.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T21:46:21.251Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Lab7\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "C:\\UnityProject\\Lab7\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAuwKsAAAAlAAAAAAAAAA==",
+              "Title": "PickupItem.cs",
+              "DocumentMoniker": "C:\\Users\\st710147\\Documents\\GitHub\\Lab7\\Lab7\\Assets\\Scripts\\PickupItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PickupItem.cs",
+              "ToolTip": "C:\\Users\\st710147\\Documents\\GitHub\\Lab7\\Lab7\\Assets\\Scripts\\PickupItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PickupItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T16:37:44.684Z",
+              "WhenOpened": "2025-03-02T21:37:49.097Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\wi652643\\Unity Projects\\Lab7\\Assets\\EnemyBehavior.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\wi652643\\Unity Projects\\Lab7\\Assets\\EnemyBehavior.cs",
+              "ToolTip": "C:\\Users\\wi652643\\Unity Projects\\Lab7\\Assets\\EnemyBehavior.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\wi652643\\Unity Projects\\Lab7\\Assets\\EnemyBehavior.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T16:35:42.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\st710147\\Documents\\GitHub\\Lab7\\Lab7\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\st710147\\Documents\\GitHub\\Lab7\\Lab7\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T16:37:44.684Z"
             }
           ]
         }

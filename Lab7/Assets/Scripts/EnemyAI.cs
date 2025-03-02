@@ -78,7 +78,7 @@ public class EnemyAI : MonoBehaviour
             chasing = true;
             agent.speed = 9;
             enemy.localScale = new Vector3(1.5f, 2f, 1.5f);
-            //change color to red here
+            enemyRenderer.material.color = Color.red; // Change to red when chasing
         }
     }
 
@@ -91,7 +91,7 @@ public class EnemyAI : MonoBehaviour
             NextPatrol();
             agent.speed = 5;
             enemy.localScale = Vector3.one;
-            //change color to not red here
+            enemyRenderer.material.color = Color.white; // Change back to default color
         }
     }
 
